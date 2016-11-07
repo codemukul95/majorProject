@@ -3,7 +3,7 @@ import os
 import scipy
 from scipy.misc import *
 
-input_path = '/path/to/train/c0'  #enter the path to images folder
+input_path = '/home/mukul/Documents/major/dataset/train/c0'  #enter the path to images folder
 
 img_ext = '.jpg'
 
@@ -17,7 +17,7 @@ for x in os.listdir( input_path ):
         img_temp = imresize(img, size=(120,160))
         imsave(out_path+x, img_temp)
 
-input_path = 'path/to/train/c1'  #enter the path to images folder
+input_path = '/home/mukul/Documents/major/dataset/train/c1'  #enter the path to images folder
 
 img_ext = '.jpg'
 
